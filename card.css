@@ -1,0 +1,65 @@
+@import url();
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    height: 100vh;
+    font-family: 'Times New Roman';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.card{
+    height: 270px;
+    min-width: 250px;
+    width: 470px;
+    background: linear-gradient(45deg, #0c0200,#2f3131);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    position: relative;
+    border-radius: 20px;
+    padding-left: 20px;
+    color:rgb(202, 177, 177);
+}
+.card img{
+    height: 230px;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 72%;
+    transform: translate(-30%, -50%);
+    border-radius: 200px;
+}
+.card h2{
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgb(138, 138, 21);
+}
+.card 
+a{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card a {
+    text-decoration: none;
+    text-transform: none;
+    color: rgb(202, 177, 177);
+    font-size: medium;
+    
+   
+
+}
+.card h4{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: rgb(202, 177, 177);
+    text-transform: none;
+}
+
+.card h3{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(202, 177, 177);
+}
